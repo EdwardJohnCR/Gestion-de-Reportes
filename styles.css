@@ -1,0 +1,86 @@
+body {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #34495e;
+    border-radius: 8px;
+}
+.form-select, .form-control {
+    background-color: #3b4b5c;
+    color: #ecf0f1;
+}
+.btn-primary {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+.btn-primary:hover {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+.alert {
+    margin-top: 20px;
+}
+.logo {
+    width: 130px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.header-title {
+    margin: 0;
+}
+.title2 {
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-top: 20px;   /* Ajusta el margen superior según tus necesidades */
+}
+.file-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.btn-delete-file {
+    padding: 0.375rem 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+    color: #fff;
+}
+.btn-delete-file i {
+    margin-right: 5px;
+}
+.btn-add-file {
+    background-color: #27ae60;
+    border-color: #27ae60;
+    color: #fff;
+    margin-top: 10px;
+}
+.btn-add-file i {
+    margin-right: 5px;
+}
+#loadingIndicator p {
+    color: #ecf0f1;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.title-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title-container h2 {
+    color: #ecf0f1;
+    margin-bottom: 10px;
+}
